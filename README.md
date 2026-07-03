@@ -15,6 +15,8 @@ PetitOnes is an open community for people who want to build robots with AI.
 
 ## 🚀 Projects
 
+### M5 Petit
+
 - **[m5-petit-setup](https://github.com/PetitOnes/m5-petit-setup)** — Getting-started guide for M5 Petit: what to buy and how to set it up
 - **[m5-petit-scripts](https://github.com/PetitOnes/m5-petit-scripts)** — Firmware & utility scripts for M5 Petit: flashing (.ino), chat sessions, mail, logs
 - **[m5-petit-app](https://github.com/PetitOnes/m5-petit-app)** — Dashboard server for M5 Petit: album, voice memo, notebook, mailbox, chat, records, diary
