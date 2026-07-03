@@ -54,4 +54,7 @@ We welcome contributions of all kinds.
 
 ## 💬 Community
 
-𝕏: https://x.com/PetitOnes
+- 𝕏: https://x.com/PetitOnes
+- YouTube: https://www.youtube.com/@PetitOnes
+- Zenn: https://zenn.dev/ari_ac1d/articles/c2b073dc6883fe
+- GitHub: https://github.com/PetitOnes
