@@ -1,0 +1,6 @@
+{
+    "name": "Lint (Python / Google style)",
+    "description": "Lint and format-check Python code with ruff, configured for Google's Python Style Guide. Copy workflow-templates/ruff-google.toml into your repo's pyproject.toml (or as ruff.toml) to match.",
+    "categories": ["Python"],
+    "filePatterns": ["pyproject\\.toml$"]
+}
