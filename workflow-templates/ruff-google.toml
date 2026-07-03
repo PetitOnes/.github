@@ -1,0 +1,33 @@
+# Ruff config aligned with the Google Python Style Guide:
+# https://google.github.io/styleguide/pyguide.html
+#
+# Usage: copy this file's contents into your repo's pyproject.toml under
+# [tool.ruff] / [tool.ruff.lint] / [tool.ruff.lint.pydocstyle], or drop this
+# file at your repo root as `ruff.toml` (ruff picks it up automatically).
+
+line-length = 80
+target-version = "py312"
+
+[lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort (import order)
+    "N",   # pep8-naming
+    "D",   # pydocstyle
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+]
+ignore = [
+    "D100", # missing docstring in public module
+    "D104", # missing docstring in public package
+    "D203", # conflicts with D211 (Google style: no blank line before class docstring)
+    "D213", # conflicts with D212 (Google style: summary on first line)
+]
+
+[lint.pydocstyle]
+convention = "google"
+
+[lint.isort]
+force-sort-within-sections = true
